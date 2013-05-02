@@ -3,8 +3,9 @@ import numpy as np
 
 def finiteDifference(x,y):
     """finds the derivative of the function y over the range x using a finite di"""
+    import numpy as np
     dydx = np.zeros(y.shape,float)
-    dydx[:-1] = diff(y)/diff(x)
+    dydx[:-1] = np.diff(y)/np.diff(x)
     dydx[-1] = (y[-1]-y[-2])/(x[-1]-x[-2])
     return dydx
 
