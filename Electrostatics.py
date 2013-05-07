@@ -11,4 +11,9 @@ def dipolePotential(x,y,q,d):
     Vxy = pointPotential(x,y,q,d/2,0) + pointPotential(x,y,-q,-d/2,0)
     return Vxy
 
-
+def pointField(x,y,q,Xq,Yq):
+    """Returns a tuple of the electric field caused by q at (Xq,Yq)"""
+    k = 1.3806488e-23 #Nm^2/C^2
+    Ex = (k*q*(x-Xq))/(((x-Xq)**2+(y-Yq)**2)**(0.5))
+    Ey = (k*q*(y-Yq))/(((x-Xq)**2+(y-Yq)**2)**(0.5))
+    return [Ex,Ey]
