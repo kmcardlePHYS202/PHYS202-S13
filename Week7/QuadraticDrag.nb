@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[     48369,       1069]
-NotebookOptionsPosition[     47419,       1034]
-NotebookOutlinePosition[     47754,       1049]
-CellTagsIndexPosition[     47711,       1046]
+NotebookDataLength[     48214,       1063]
+NotebookOptionsPosition[     47262,       1028]
+NotebookOutlinePosition[     47599,       1043]
+CellTagsIndexPosition[     47556,       1040]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -385,7 +385,8 @@ QPxyF/4PLmKlrA==
   PlotRangePadding->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{{3.5781905504887247`*^9, 3.578190566783785*^9}, 
    3.578190709443717*^9, 3.578191099078179*^9, 3.578192543506153*^9, {
-   3.57819258209626*^9, 3.578192596572815*^9}, 3.5783635017102823`*^9}]
+   3.57819258209626*^9, 3.578192596572815*^9}, 3.5783635017102823`*^9, 
+   3.5784159581111794`*^9}]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -559,9 +560,10 @@ Cell[BoxData[
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`tf$$ = 20., $CellContext`th$$ = 
-    1.2884034320502766`, $CellContext`V$$ = 46.4, $CellContext`vt$$ = 
-    59., $CellContext`y0$$ = 41.400000000000006`, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`tf$$ = 
+    10.768663692474364`, $CellContext`th$$ = 
+    1.1236742434492482`, $CellContext`V$$ = 39., $CellContext`vt$$ = 
+    51.6, $CellContext`y0$$ = 0, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
@@ -573,19 +575,19 @@ Cell[BoxData[
        Hold[$CellContext`tf$$], 0.01, "time (s)"}, 0.01, 20.}}, 
     Typeset`size$$ = {500., {148., 152.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`y0$2142$$ = 0, $CellContext`V$2143$$ = 
-    0, $CellContext`vt$2144$$ = 0, $CellContext`th$2145$$ = 
-    0, $CellContext`tf$2146$$ = 0}, 
+    True, $CellContext`y0$1242$$ = 0, $CellContext`V$1243$$ = 
+    0, $CellContext`vt$1244$$ = 0, $CellContext`th$1245$$ = 
+    0, $CellContext`tf$1246$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`tf$$ = 0.01, $CellContext`th$$ = 
         0.1, $CellContext`V$$ = 10, $CellContext`vt$$ = 10, $CellContext`y0$$ = 
         0}, "ControllerVariables" :> {
-        Hold[$CellContext`y0$$, $CellContext`y0$2142$$, 0], 
-        Hold[$CellContext`V$$, $CellContext`V$2143$$, 0], 
-        Hold[$CellContext`vt$$, $CellContext`vt$2144$$, 0], 
-        Hold[$CellContext`th$$, $CellContext`th$2145$$, 0], 
-        Hold[$CellContext`tf$$, $CellContext`tf$2146$$, 0]}, 
+        Hold[$CellContext`y0$$, $CellContext`y0$1242$$, 0], 
+        Hold[$CellContext`V$$, $CellContext`V$1243$$, 0], 
+        Hold[$CellContext`vt$$, $CellContext`vt$1244$$, 0], 
+        Hold[$CellContext`th$$, $CellContext`th$1245$$, 0], 
+        Hold[$CellContext`tf$$, $CellContext`tf$1246$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -633,7 +635,7 @@ $CellContext`V$$ Sin[$CellContext`th$$] $CellContext`t -
          Rational[1, 2] Pi, Appearance -> 
          "Labeled"}, {{$CellContext`tf$$, 0.01, "time (s)"}, 0.01, 20., 
          Appearance -> "Labeled"}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{545., {240., 245.}},
+     ImageSizeCache->{545., {255., 260.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -647,7 +649,7 @@ $CellContext`V$$ Sin[$CellContext`th$$] $CellContext`t -
   3.578195852329791*^9, 3.5781977395163517`*^9, 3.578197950400392*^9, 
    3.5781982158341627`*^9, {3.578198323126505*^9, 3.5781983431536627`*^9}, 
    3.578363472823428*^9, 3.57836350863105*^9, 3.578363786188414*^9, 
-   3.5783638428010178`*^9}]
+   3.5783638428010178`*^9, 3.578415961475143*^9}]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -823,15 +825,6 @@ Cell[BoxData[
      ",", "10", ",", "200", ",", 
      RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ",", 
    "\[IndentingNewLine]", 
-   RowBox[{"(*", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"vt", ",", "10", ",", "\"\<terminal velocity (m/s)\>\""}], 
-        "}"}], ",", "10", ",", "200", ",", 
-       RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}]}], "}"}], ","}], 
-    "*)"}], "\[IndentingNewLine]", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
@@ -872,14 +865,15 @@ Cell[BoxData[
    3.578195648396315*^9}, {3.5781957200644417`*^9, 3.578195727060907*^9}, {
    3.578195831187517*^9, 3.578195832741104*^9}, {3.578195876036398*^9, 
    3.578196014508438*^9}, {3.5781961623399878`*^9, 3.578196167225553*^9}, 
-   3.578365021765527*^9}],
+   3.578365021765527*^9, {3.578416741551621*^9, 3.578416741936607*^9}}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`A$$ = 0.7, $CellContext`m$$ = 
-    75, $CellContext`tf$$ = 20., $CellContext`th$$ = 
-    0.28237874452256717`, $CellContext`V$$ = 40., $CellContext`y0$$ = 2, 
+   DynamicModuleBox[{$CellContext`A$$ = 
+    0.037000000000000005`, $CellContext`m$$ = 
+    0.08499999999999999, $CellContext`tf$$ = 20., $CellContext`th$$ = 
+    0.9765946107697583, $CellContext`V$$ = 37.8, $CellContext`y0$$ = 0., 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
@@ -891,22 +885,22 @@ Cell[BoxData[
       Rational[1, 2] Pi}, {{
        Hold[$CellContext`tf$$], 0.01, "time (s)"}, 0.01, 20.}}, 
     Typeset`size$$ = {500., {148., 152.}}, Typeset`update$$ = 0, 
-    Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`A$3266$$ =
-     0, $CellContext`m$3267$$ = 0, $CellContext`y0$3268$$ = 
-    0, $CellContext`V$3269$$ = 0, $CellContext`th$3270$$ = 
-    0, $CellContext`tf$3271$$ = 0}, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`A$1342$$ =
+     0, $CellContext`m$1343$$ = 0, $CellContext`y0$1344$$ = 
+    0, $CellContext`V$1345$$ = 0, $CellContext`th$1346$$ = 
+    0, $CellContext`tf$1347$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`A$$ = 0.001, $CellContext`m$$ = 
         0.01, $CellContext`tf$$ = 0.01, $CellContext`th$$ = 
         0.1, $CellContext`V$$ = 10, $CellContext`y0$$ = 0}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`A$$, $CellContext`A$3266$$, 0], 
-        Hold[$CellContext`m$$, $CellContext`m$3267$$, 0], 
-        Hold[$CellContext`y0$$, $CellContext`y0$3268$$, 0], 
-        Hold[$CellContext`V$$, $CellContext`V$3269$$, 0], 
-        Hold[$CellContext`th$$, $CellContext`th$3270$$, 0], 
-        Hold[$CellContext`tf$$, $CellContext`tf$3271$$, 0]}, 
+        Hold[$CellContext`A$$, $CellContext`A$1342$$, 0], 
+        Hold[$CellContext`m$$, $CellContext`m$1343$$, 0], 
+        Hold[$CellContext`y0$$, $CellContext`y0$1344$$, 0], 
+        Hold[$CellContext`V$$, $CellContext`V$1345$$, 0], 
+        Hold[$CellContext`th$$, $CellContext`th$1346$$, 0], 
+        Hold[$CellContext`tf$$, $CellContext`tf$1347$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -958,7 +952,7 @@ $CellContext`V$$ Sin[$CellContext`th$$] $CellContext`t -
          Rational[1, 2] Pi, Appearance -> 
          "Labeled"}, {{$CellContext`tf$$, 0.01, "time (s)"}, 0.01, 20., 
          Appearance -> "Labeled"}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{545., {286., 291.}},
+     ImageSizeCache->{545., {256., 261.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -976,7 +970,7 @@ $CellContext`V$$ Sin[$CellContext`th$$] $CellContext`t -
    3.578194459480854*^9, 3.5781946805347157`*^9, 3.578194872911193*^9, 
    3.5781950021880827`*^9, 3.578195652555996*^9, 3.578195728716546*^9, 
    3.57819608903417*^9, 3.5781961688481207`*^9, 3.5783649831047983`*^9, 
-   3.578365057131172*^9}]
+   3.578365057131172*^9, 3.5784159675283613`*^9}]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
@@ -1032,8 +1026,8 @@ Cell[BoxData[
    3.5783666270547*^9}]
 }, Open  ]]
 },
-WindowSize->{667, 690},
-WindowMargins->{{Automatic, 8}, {Automatic, 30}},
+WindowSize->{914, 859},
+WindowMargins->{{Automatic, 170}, {Automatic, 19}},
 FrontEndVersion->"8.0 for Linux x86 (64-bit) (October 10, 2011)",
 StyleDefinitions->"Default.nb"
 ]
@@ -1048,28 +1042,28 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[545, 20, 5682, 136, 264, "Input"],
+Cell[545, 20, 5682, 136, 297, "Input"],
 Cell[CellGroupData[{
-Cell[6252, 160, 1820, 35, 66, "Input"],
-Cell[8075, 197, 11338, 190, 369, "Output"]
+Cell[6252, 160, 1820, 35, 69, "Input"],
+Cell[8075, 197, 11366, 191, 366, "Output"]
 }, Open  ]],
-Cell[19428, 390, 92, 1, 29, "Input"],
-Cell[19523, 393, 92, 1, 29, "Input"],
+Cell[19456, 391, 92, 1, 30, "Input"],
+Cell[19551, 394, 92, 1, 30, "Input"],
 Cell[CellGroupData[{
-Cell[19640, 398, 6094, 158, 210, "Input"],
-Cell[25737, 558, 4787, 91, 502, "Output"]
+Cell[19668, 399, 6094, 158, 259, "Input"],
+Cell[25765, 559, 4812, 92, 532, "Output"]
 }, Open  ]],
-Cell[30539, 652, 643, 9, 29, "Input"],
-Cell[31185, 663, 283, 4, 48, "Input"],
-Cell[31471, 669, 94, 1, 29, "Input"],
+Cell[30592, 654, 643, 9, 30, "Input"],
+Cell[31238, 665, 283, 4, 50, "Input"],
+Cell[31524, 671, 94, 1, 30, "Input"],
 Cell[CellGroupData[{
-Cell[31590, 674, 8373, 200, 336, "Input"],
-Cell[39966, 876, 5492, 102, 594, "Output"]
+Cell[31643, 676, 8099, 191, 297, "Input"],
+Cell[39745, 869, 5556, 103, 534, "Output"]
 }, Open  ]],
-Cell[45473, 981, 68, 1, 29, "Input"],
+Cell[45316, 975, 68, 1, 30, "Input"],
 Cell[CellGroupData[{
-Cell[45566, 986, 1160, 27, 138, "Input"],
-Cell[46729, 1015, 674, 16, 85, "Output"]
+Cell[45409, 980, 1160, 27, 145, "Input"],
+Cell[46572, 1009, 674, 16, 88, "Output"]
 }, Open  ]]
 }
 ]
