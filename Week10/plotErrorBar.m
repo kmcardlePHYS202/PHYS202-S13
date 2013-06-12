@@ -38,10 +38,19 @@ hold off
 % fit the data 
 fittedmodel = fit(x',y',fun,'StartPoint',[15 0 15]);
 
+disp(fittedmodel);
+
+
 % plot the result 
 hold on
 plot(fittedmodel,'r-');
 hold off
 
-%figure(5) 
-%plot(x,x.^2)
+hold on
+% fit the data using the uncertainties as weights
+w = ey.^-2;
+weightedfitted = fit(x',y',fun,'StartPoint',[15 0 15],'Weights',w')
+% plot the result
+plot(weightedfitted,'b--');
+hold off
+
